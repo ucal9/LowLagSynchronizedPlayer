@@ -24,7 +24,6 @@
 
 
 
-
 # 3 部分功能实现原理
 
 ## seek操作
@@ -168,23 +167,3 @@ enum class Level : base::type::EnumType {
 通用信息打印：Verbose
 
 跟踪信息打印：Info
-
-
-
-# 4 说明
-
-- 本项目主要应用于教育，重点在于功能的实现，大家在重写代码的时候可以根据自己的风格和习惯进行重构。
-- 对于ui界面，主要也是为了配合功能，所以ui界面没有花太多时间做适配。
-- 这个项目长期迭代，随着功能的增加代码也会越来越复杂，**对于项目不理解的内容大家多找老师沟通。**
-
-
-
-# 5 参考
-
-- 在线转换图标网站 https://convertio.co/zh/
-
-- [Qt 设置应用程序图标_qt设置图标_Qt程序员的博客-CSDN博客](https://blog.csdn.net/hw5230/article/details/129447066)
-
-- [QT解决报错registered using qRegisterMetaType()_qregistermetatype 报错-CSDN博客](https://blog.csdn.net/Larry_Yanan/article/details/127686354)
-
-- [Qt开发----如何发布Release版本（生成exe文件）_qt release_冬瓜~的博客-CSDN博客](https://blog.csdn.net/weixin_44793491/article/details/118307151)
